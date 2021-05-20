@@ -1,0 +1,378 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		74456CC1261D7AEB00E6C95D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74456CC0261D7AEB00E6C95D /* AppDelegate.m */; };
+		74456CC4261D7AEB00E6C95D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 74456CC3261D7AEB00E6C95D /* SceneDelegate.m */; };
+		74456CC7261D7AEB00E6C95D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74456CC6261D7AEB00E6C95D /* ViewController.m */; };
+		74456CCA261D7AEB00E6C95D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74456CC8261D7AEB00E6C95D /* Main.storyboard */; };
+		74456CCD261D7AEB00E6C95D /* BioAuth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 74456CCB261D7AEB00E6C95D /* BioAuth.xcdatamodeld */; };
+		74456CCF261D7AF300E6C95D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74456CCE261D7AF300E6C95D /* Assets.xcassets */; };
+		74456CD2261D7AF300E6C95D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74456CD0261D7AF300E6C95D /* LaunchScreen.storyboard */; };
+		74456CD5261D7AF300E6C95D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 74456CD4261D7AF300E6C95D /* main.m */; };
+		74456CDE261D7E7100E6C95D /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 74456CDD261D7E7100E6C95D /* LocalAuthentication.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		74456CBC261D7AEB00E6C95D /* BioAuth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BioAuth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		74456CBF261D7AEB00E6C95D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		74456CC0261D7AEB00E6C95D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		74456CC2261D7AEB00E6C95D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		74456CC3261D7AEB00E6C95D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		74456CC5261D7AEB00E6C95D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		74456CC6261D7AEB00E6C95D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		74456CC9261D7AEB00E6C95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		74456CCC261D7AEB00E6C95D /* BioAuth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BioAuth.xcdatamodel; sourceTree = "<group>"; };
+		74456CCE261D7AF300E6C95D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		74456CD1261D7AF300E6C95D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		74456CD3261D7AF300E6C95D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74456CD4261D7AF300E6C95D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		74456CDD261D7E7100E6C95D /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74456CB9261D7AEB00E6C95D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74456CDE261D7E7100E6C95D /* LocalAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		74456CB3261D7AEB00E6C95D = {
+			isa = PBXGroup;
+			children = (
+				74456CBE261D7AEB00E6C95D /* BioAuth */,
+				74456CBD261D7AEB00E6C95D /* Products */,
+				74456CDC261D7E7100E6C95D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		74456CBD261D7AEB00E6C95D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				74456CBC261D7AEB00E6C95D /* BioAuth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		74456CBE261D7AEB00E6C95D /* BioAuth */ = {
+			isa = PBXGroup;
+			children = (
+				74456CBF261D7AEB00E6C95D /* AppDelegate.h */,
+				74456CC0261D7AEB00E6C95D /* AppDelegate.m */,
+				74456CC2261D7AEB00E6C95D /* SceneDelegate.h */,
+				74456CC3261D7AEB00E6C95D /* SceneDelegate.m */,
+				74456CC5261D7AEB00E6C95D /* ViewController.h */,
+				74456CC6261D7AEB00E6C95D /* ViewController.m */,
+				74456CC8261D7AEB00E6C95D /* Main.storyboard */,
+				74456CCE261D7AF300E6C95D /* Assets.xcassets */,
+				74456CD0261D7AF300E6C95D /* LaunchScreen.storyboard */,
+				74456CD3261D7AF300E6C95D /* Info.plist */,
+				74456CD4261D7AF300E6C95D /* main.m */,
+				74456CCB261D7AEB00E6C95D /* BioAuth.xcdatamodeld */,
+			);
+			path = BioAuth;
+			sourceTree = "<group>";
+		};
+		74456CDC261D7E7100E6C95D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				74456CDD261D7E7100E6C95D /* LocalAuthentication.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		74456CBB261D7AEB00E6C95D /* BioAuth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74456CD8261D7AF300E6C95D /* Build configuration list for PBXNativeTarget "BioAuth" */;
+			buildPhases = (
+				74456CB8261D7AEB00E6C95D /* Sources */,
+				74456CB9261D7AEB00E6C95D /* Frameworks */,
+				74456CBA261D7AEB00E6C95D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BioAuth;
+			productName = BioAuth;
+			productReference = 74456CBC261D7AEB00E6C95D /* BioAuth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		74456CB4261D7AEB00E6C95D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					74456CBB261D7AEB00E6C95D = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 74456CB7261D7AEB00E6C95D /* Build configuration list for PBXProject "BioAuth" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 74456CB3261D7AEB00E6C95D;
+			productRefGroup = 74456CBD261D7AEB00E6C95D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				74456CBB261D7AEB00E6C95D /* BioAuth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		74456CBA261D7AEB00E6C95D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74456CD2261D7AF300E6C95D /* LaunchScreen.storyboard in Resources */,
+				74456CCF261D7AF300E6C95D /* Assets.xcassets in Resources */,
+				74456CCA261D7AEB00E6C95D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		74456CB8261D7AEB00E6C95D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74456CD5261D7AF300E6C95D /* main.m in Sources */,
+				74456CCD261D7AEB00E6C95D /* BioAuth.xcdatamodeld in Sources */,
+				74456CC7261D7AEB00E6C95D /* ViewController.m in Sources */,
+				74456CC1261D7AEB00E6C95D /* AppDelegate.m in Sources */,
+				74456CC4261D7AEB00E6C95D /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		74456CC8261D7AEB00E6C95D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74456CC9261D7AEB00E6C95D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		74456CD0261D7AF300E6C95D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				74456CD1261D7AF300E6C95D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		74456CD6261D7AF300E6C95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74456CD7261D7AF300E6C95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		74456CD9261D7AF300E6C95D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPYPL6M476;
+				INFOPLIST_FILE = BioAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.dreamsecurity.BioAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		74456CDA261D7AF300E6C95D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XPYPL6M476;
+				INFOPLIST_FILE = BioAuth/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = kr.co.dreamsecurity.BioAuth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		74456CB7261D7AEB00E6C95D /* Build configuration list for PBXProject "BioAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74456CD6261D7AF300E6C95D /* Debug */,
+				74456CD7261D7AF300E6C95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74456CD8261D7AF300E6C95D /* Build configuration list for PBXNativeTarget "BioAuth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74456CD9261D7AF300E6C95D /* Debug */,
+				74456CDA261D7AF300E6C95D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		74456CCB261D7AEB00E6C95D /* BioAuth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				74456CCC261D7AEB00E6C95D /* BioAuth.xcdatamodel */,
+			);
+			currentVersion = 74456CCC261D7AEB00E6C95D /* BioAuth.xcdatamodel */;
+			path = BioAuth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 74456CB4261D7AEB00E6C95D /* Project object */;
+}
